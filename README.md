@@ -1,6 +1,6 @@
 # 🎯 ML Assignment 3 – Classification
 
-### 🧠 Breast Cancer Classification Using Machine Learning
+###  Breast Cancer Classification Using Machine Learning
 
 This project implements and compares five supervised machine learning algorithms using the Breast Cancer Wisconsin dataset from Scikit-learn.
 
