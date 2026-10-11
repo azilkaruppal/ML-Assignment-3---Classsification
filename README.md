@@ -1,113 +1,74 @@
-ML Assignment 3 - Classification
+# 🎯 ML Assignment 3 – Classification
 
-Overview
+### 🧠 Breast Cancer Classification Using Machine Learning
 
-This project applies five supervised machine-learning classification algorithms to the Breast Cancer Wisconsin Diagnostic dataset available in scikit-learn.
+This project implements and compares five supervised machine learning algorithms using the Breast Cancer Wisconsin dataset from Scikit-learn.
 
-The objective is to train the models, evaluate their performance, and compare their classification results.
+## 📊 Dataset Overview
+- 📌 **Dataset:** Breast Cancer Wisconsin Diagnostic Dataset
+- 📌 **Observations:** 569
+- 📌 **Features:** 30
+- 📌 **Classes:** Malignant and Benign
 
-Algorithms Used
+## 🤖 Machine Learning Algorithms
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. Support Vector Machine (SVM)
+5. k-Nearest Neighbors (k-NN)
 
-Logistic Regression
+## ⚙️ Data Preprocessing
+- Handling missing values
+- Feature scaling and standardisation
+- 80:20 training and testing split
+- Stratified sampling
 
-Decision Tree Classifier
+## 📈 Model Evaluation
+The models are evaluated using:
 
-Random Forest Classifier
+- ✅ Accuracy
+- ✅ Precision
+- ✅ Recall
+- ✅ F1-Score
+- ✅ ROC-AUC Score
+- ✅ Confusion Matrix
 
-Support Vector Machine (SVM)
+## 🛠️ Technologies Used
+- 🐍 Python
+- 📚 Scikit-learn
+- 🧮 NumPy
+- 🐼 Pandas
+- 📊 Matplotlib
+- 📓 Jupyter Notebook
 
-k-Nearest Neighbors (k-NN)
+## 🚀 How to Run
+1. Clone or download this repository.
+2. Install the required libraries:
 
-Dataset
+   `pip install numpy pandas matplotlib scikit-learn`
 
-The dataset is loaded directly from the scikit-learn library using load_breast_cancer().
+3. Open the Jupyter Notebook in PyCharm or Google Colab.
+4. Run all cells to train and evaluate the models.
+5. Compare the performance of all five algorithms.
 
-Observations: 569
+## 🏆 Results
+The project compares the performance of all five classification algorithms and identifies the best- and worst-performing models based on test accuracy.
 
-Features: 30 numerical features
+Additional metrics and confusion matrices provide a more detailed evaluation of classification performance.
 
-Target classes: Malignant and benign
+## 🎓 Learning Outcomes
+- Understanding supervised machine learning
+- Implementing classification algorithms
+- Preprocessing real-world datasets
+- Evaluating and comparing machine learning models
+- Visualising model performance
 
-Target encoding: 0 = malignant, 1 = benign
+## ⚠️ Disclaimer
+This project is developed for educational purposes only and is not intended for medical diagnosis.
 
-No separate dataset download is required.
+---
 
-Preprocessing
+### ✨ Author
+**ML Assignment 3 – Classification**
 
-Check the dataset for missing values.
-
-Use median imputation to handle any missing feature values.
-
-Standardise features for Logistic Regression, SVM, and k-NN.
-
-Split the data into 80% training and 20% testing sets.
-
-Use stratification to preserve class proportions.
-
-Use pipelines to fit preprocessing on the training data and help prevent data leakage.
-
-Evaluation Metrics
-
-The models are compared using:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-ROC-AUC
-
-The project also generates classification reports, a model-comparison chart, and confusion matrices.
-
-Requirements
-
-Python 3
-
-NumPy
-
-pandas
-
-Matplotlib
-
-scikit-learn
-
-Jupyter Notebook support (if running the .ipynb version)
-
-How to Run in PyCharm
-
-Download or clone this repository.
-
-Open the project in PyCharm.
-
-Configure a Python interpreter.
-
-Install the required packages in the PyCharm terminal:
-
-pip install numpy pandas matplotlib scikit-learn jupyter
-
-Open ML_Assignment_3_Classification_Notebook.ipynb.
-
-Select the configured Python kernel/interpreter.
-
-Run all notebook cells from top to bottom.
-
-You can also open the notebook in Google Colab.
-
-Files
-
-ML_Assignment_3_Classification_Notebook.ipynb — main assignment notebook containing the code, explanations, evaluation, visualisations, and conclusion.
-
-README.md — project description and instructions.
-
-Conclusion
-
-The notebook compares the five classification algorithms using the selected test set. The best- and worst-performing models are identified based on test accuracy, while precision, recall, F1-score, ROC-AUC, and confusion matrices provide additional information about model performance.
-
-The actual model rankings and scores should be taken from the output produced when the notebook is executed.
-
-Disclaimer
-
-This project is for educational purposes only. It is not intended for medical diagnosis or clinical decision-making.
+*Exploring data. Building models. Discovering insights.*
